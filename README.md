@@ -1,5 +1,18 @@
-# Project for CUDA and OpenCV exercises
-### Combining EE5351 and online OpenCV tutorials
+# Parallel programming with CUDA - exercises
+### Created by Zhaoxin Liang, late Sep. 2017
+### Combining EE5351 mateirals, future material with OpenCV to be included
+
+Contents:
+* MP0_function_wrapper: Compiler test
+* MP1_function_wrapper: Vector addition
+* MP2_function_wrapper: Matrix multiplication
+* MP3_function_wrapper: Matrix multiplication with shared memory
+* MP4_function_wrapper: Matrix convolution
+* MP5_function_wrapper: Reduction tree
+* MP6_function_wrapper: Prefix scan
+* MP7_function_wrapper: Histogram
+* cuda_query_function0: query device info
+  * ParallelMultiply: Matrix multiplication with template
 
 Project log:
 
@@ -8,18 +21,7 @@ matrix_functionality.cpp and matrix_functionality.h, while the parallel version
 is give in matrix_kernal.cu and matrix_kernel.cuh <br />
 
 
-
-
-
-
-
-
-# Project Leviathan
-##### Project _Leviathan_
-##### A digital playground ~~deeply~~ hidden
-
-A project on OpenCV and CUDA, further to NN. As always, add a **starter** quote:
-> "I am a leaf on the wind; watch how I soar."
+Comments:
 
 The code for git file: `git add .`
 ```
